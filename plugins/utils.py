@@ -1,6 +1,6 @@
-# Stubborn Developer 
+# harshit Developer 
 # Don't Remove Credit 🥺
-# Telegram Channel @Stubborn1223
+# Telegram Channel harshit 
 
 
 
@@ -77,6 +77,6 @@ def get_readable_time(seconds: int) -> str:
 
 
 
-# Stubborn Developer 
+# harshit Developer 
 # Don't Remove Credit 🥺
-# Telegram Channel @Stubborn1223
+# Telegram Channel @harshit 
