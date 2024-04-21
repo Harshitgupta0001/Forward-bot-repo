@@ -32,7 +32,7 @@
 <summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/Rohanthakur360/forward_bot_premium_ultra">
+<a href="https://heroku.com/deploy?template=https://github.com/Harshitgupta0001/forward-bot-premium">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
