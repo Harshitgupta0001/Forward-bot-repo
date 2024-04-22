@@ -15,12 +15,12 @@ from pyrogram import Client, filters, enums, __version__ as pyrogram_version
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InputMediaDocument
 
 main_buttons = [[
-        InlineKeyboardButton('📢 Updates', url='https://t.me/Stubborn1223')
+        InlineKeyboardButton('📢 Updates', url='https://t.me/harshit_g91')
         ],[
         InlineKeyboardButton('🛠️ Help', callback_data='help'),
         InlineKeyboardButton('🩷 About', callback_data='about')
         ],[
-        InlineKeyboardButton('🧑‍💻 Developer 🧑‍💻', url='https://t.me/Stubborn1223')
+        InlineKeyboardButton('🧑‍💻 Developer 🧑‍💻', url='https://t.me/harshit_g91')
         ]]
 
 
