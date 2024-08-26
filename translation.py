@@ -11,13 +11,13 @@ from config import Config
 class Translation(object):
   START_TXT = """🙋‍♂ Hey {}
 
-👉 I Am A Advanced Auto Forward Bot
+<pre>👉 I Am A Advanced Auto Forward Bot</pre>
   
-👉 I Can Forward All Message From One Channel To Another Channel 
+<pre>👉 I Can Forward All Message From One Channel To Another Channel</pre> 
   
-👉 Click Help Button To Know More About Me
+<pre>👉 Click Help Button To Know More About Me</pre>
   
-<b>Bot Is Made By @harshit_g91</b>"""
+<b><spoiler>🔋Maintained by <a href='https://t.me/Harshit_contact_bot'>ℍ𝕒ℝ𝕤ℍ𝕚𝕋</a></spoiler></b>"""
 
 
   HELP_TXT = """<b><u>🛠️ Help</b></u>
@@ -54,7 +54,7 @@ class Translation(object):
 <b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a>
 <b>🧑‍💻 Developer :</b> <a href='https://t.me/@harshit_g91'> HARSHIT 😊🕊</a>
 
-<b>♻️ Bot Made By :</b> @harshit_g91 """
+<b>♻️ Bot Made By : @hgbotz </b> """
   
   STATUS_TXT = """<b><u>Bot Status</u></b>
   
