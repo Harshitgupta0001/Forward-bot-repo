@@ -9,12 +9,12 @@ import os
 from config import Config
 
 class Translation(object):
-  START_TXT = """🙋‍♂ Hey {}
+  START_TXT = """<pre>🙋‍♂ Hey</pre> {}
 
-<b><pre>👉 I Am A Advanced Auto Forward Bot
-     👉 I Can Forward All Message From One Channel To Another Channel
-     👉 Click Help Button To Know More About Me</pre></b>\n
-     <b><spoiler>🔋Maintained by <a href='https://t.me/HGBOTZ'>HGBOT'Z</a></spoiler></b>"""
+<b><blockquote>👉 I Am A Advanced Auto Forward Bot
+               👉 I Can Forward All Message From One Channel To Another Channel
+               👉 Click Help Button To Know More About Me</blockquote></b>\n
+   <b><spoiler>🔋Maintained by <a href='https://t.me/HGBOTZ'>HGBOT'Z</a></spoiler></b>"""
 
 
   HELP_TXT = """<b><u>🛠️ Help</b></u>
