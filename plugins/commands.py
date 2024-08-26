@@ -37,7 +37,6 @@ async def start(client, message):
     text=Translation.START_TXT.format(user.mention)
     await message.reply_text(
         text=text,
-        photo="https://graph.org/file/f6223f84dd87dc7eff9b9.jpg", 
         reply_markup=reply_markup,
         quote=True
     )
