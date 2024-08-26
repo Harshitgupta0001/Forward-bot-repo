@@ -35,10 +35,14 @@ async def start(client, message):
     await asyncio.sleep(2)
     await jishubotz.delete()
     text=Translation.START_TXT.format(user.mention)
-    await message.reply_text(
-        text=text,
+    await message.reply_photo(
+        photo="https://graph.org/file/f6223f84dd87dc7eff9b9.jpg", 
+        caption=text,
         reply_markup=reply_markup,
-        quote=True
+        quote=True,
+        parse_mode=enums.ParseMode.HTML, 
+        has_spoiler=True
+    )
     )
 
 
