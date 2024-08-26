@@ -17,7 +17,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 CLIENT = CLIENT()
 COMPLETED_BTN = InlineKeyboardMarkup(
    [
-      [InlineKeyboardButton('📢 Updates', url='https://t.me/Stubborn1223')]
+      [InlineKeyboardButton('📢 Updates', url='https://t.me/HGBOTZ')]
    ]
 )
 
