@@ -11,13 +11,10 @@ from config import Config
 class Translation(object):
   START_TXT = """🙋‍♂ Hey {}
 
-<pre>👉 I Am A Advanced Auto Forward Bot</pre>
-  
-<pre>👉 I Can Forward All Message From One Channel To Another Channel</pre> 
-  
-<pre>👉 Click Help Button To Know More About Me</pre>
-  
-<b><spoiler>🔋Maintained by <a href='https://t.me/Harshit_contact_bot'>ℍ𝕒ℝ𝕤ℍ𝕚𝕋</a></spoiler></b>"""
+<b><pre>👉 I Am A Advanced Auto Forward Bot
+     👉 I Can Forward All Message From One Channel To Another Channel
+     👉 Click Help Button To Know More About Me</pre></b>\n
+     <b><spoiler>🔋Maintained by <a href='https://t.me/HGBOTZ'>HGBOT'Z</a></spoiler></b>"""
 
 
   HELP_TXT = """<b><u>🛠️ Help</b></u>
@@ -48,13 +45,11 @@ class Translation(object):
 ► __If The **From Channel** Is Private Your Userbot Must Be Member In There Or Your Bot Must Need Admin Permission In There Also__
 ► __Then Use /forward To Forward Messages__"""
   
-  ABOUT_TXT = """<b>🤖 My Name :</b> {}
+  ABOUT_TXT = """<blockquote><b>🤖 My Name :</b> {}
 <b>📝 Language :</b> <a href='https://python.org'>Python 3</a>
 <b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
 <b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a>
-<b>🧑‍💻 Developer :</b> <a href='https://t.me/@harshit_g91'> HARSHIT 😊🕊</a>
-
-<b>♻️ Bot Made By : @hgbotz </b> """
+<b>🧑‍💻 Developer :</b> <a href='https://t.me/HGBOTZ'>HGBOT'G</a></blockquote>"""
   
   STATUS_TXT = """<b><u>Bot Status</u></b>
   
