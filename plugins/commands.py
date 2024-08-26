@@ -43,8 +43,6 @@ async def start(client, message):
         parse_mode=enums.ParseMode.HTML, 
         has_spoiler=True
     )
-    )
-
 
 
 #==================Restart Function==================#
