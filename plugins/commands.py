@@ -37,7 +37,7 @@ async def start(client, message):
     await jishubotz.delete()
     text=Translation.START_TXT.format(user.mention)
     await message.reply_photo(
-        photo="https://graph.org/file/f6223f84dd87dc7eff9b9.jpg", 
+        photo="https://graph.org/file/f30c6e368245b39609328.jpg", 
         caption=text,
         reply_markup=reply_markup,
         quote=True,
