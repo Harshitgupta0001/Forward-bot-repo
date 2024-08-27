@@ -84,7 +84,7 @@ class Translation(object):
 {}
 """
 
-  TEXT1 = """<b><u>Forwarded Status</u></b>
+  TEXT1 = """<pre><b><u>Forwarded Status</u></b>
 
 <b>🕵 Fetched Message :</b> <code>{}</code>
 
@@ -102,7 +102,7 @@ class Translation(object):
 
 <b>⏰ ETA :</b> <code>{}</code>
 
-{}"""
+{} </pre>"""
 
   DUPLICATE_TEXT = """<b><u>Unequify Status</u></b>
 
