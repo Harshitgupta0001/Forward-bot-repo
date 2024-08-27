@@ -29,15 +29,26 @@ main_buttons = [[
 @Client.on_message(filters.private & filters.command(['start']))
 async def start(client, message):
     user = message.from_user
+    current_time = datetime.now(pytz.timezone(TIMEZONE))
+    curr_time = current_time.hour        
+    if curr_time < 12:
+         gtxt = "<b>ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ ☕</b>" 
+    elif curr_time < 17:
+         gtxt = "<b>ɢᴏᴏᴅ ᴀғᴛᴇʀɴᴏᴏɴ 😈</b>" 
+    elif curr_time < 21:
+         gtxt = "<b>ɢᴏᴏᴅ ᴇᴠᴇɴɪɴɢ 🌇</b>"
+    else:
+         gtxt = "<b>ɢᴏᴏᴅ ɴɪɢʜᴛ 🥱</b>"
+    
     if not await db.is_user_exist(user.id):
         await db.add_user(user.id, user.first_name)
     reply_markup = InlineKeyboardMarkup(main_buttons)
     jishubotz = await message.reply_sticker("CAACAgUAAxkBAAECEEBlLA-nYcsWmsNWgE8-xqIkriCWAgACJwEAAsiUZBTiPWKAkUSmmh4E")
     await asyncio.sleep(2)
     await jishubotz.delete()
-    text=Translation.START_TXT.format(user.mention)
+    text=Translation.START_TXT.format(user.mention, gtxt)
     await message.reply_photo(
-        photo="https://graph.org/file/f30c6e368245b39609328.jpg", 
+        photo="https://graph.org/file/90e27dd577535b7bca9af.jpg", 
         caption=text,
         reply_markup=reply_markup,
         quote=True,
