@@ -21,7 +21,7 @@ CLIENT = CLIENT()
 async def settings(client, message):
     
     await message.reply_photo(
-        photo="https://graph.org/file/f1a1683e896c8a68f583d.jpg", 
+        photo="https://graph.org/file/90e27dd577535b7bca9af.jpg", 
         caption="<b>Change Your Settings As Your Wish</b>",
         reply_markup=main_buttons(),
         quote=True, 
