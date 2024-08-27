@@ -106,8 +106,8 @@ async def back(bot, query):
     reply_markup = InlineKeyboardMarkup(main_buttons)
     await query.message.edit_text(
        reply_markup=reply_markup,
-       text=Translation.START_TXT.format(
-               user.mention))
+       text=Translation.START_TXT1.format(
+               query.from_user.first_name))
 
 
 
