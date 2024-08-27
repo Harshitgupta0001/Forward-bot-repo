@@ -108,7 +108,7 @@ async def back(bot, query):
     await query.message.edit_text(
        reply_markup=reply_markup,
        text=Translation.START_TXT.format(
-                query.from_user.first_name))
+                query.from_user.first_name, gtxt))
 
 
 
