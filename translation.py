@@ -9,7 +9,7 @@ import os
 from config import Config
 
 class Translation(object):
-  START_TXT = """<b><pre>Hᴇʟʟᴏ 😎 {} 🫡 {} </pre></b>
+  START_TXT = """<b><pre>Hᴇʟʟᴏ 😎 </pre> {} 🫡 {} </b>
 <b><blockquote>ɪ ᴀᴍ ᴘᴏᴡᴇʀꜰᴜʟʟ AUTO FORWARD ʙᴏᴛ ᴊᴜꜱᴛ ꜱᴇɴᴅ ᴍᴇ /settings for more check Help . ☜ </blockquote><b>
 <b><spoiler>🔋Maintained by <a href='https://t.me/HGBOTZ'>H'GBOTZ</a></spoiler><b>"""
 
