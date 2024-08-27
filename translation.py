@@ -13,6 +13,11 @@ class Translation(object):
 <b><blockquote>ɪ ᴀᴍ ᴘᴏᴡᴇʀꜰᴜʟʟ AUTO FORWARD ʙᴏᴛ ᴊᴜꜱᴛ ꜱᴇɴᴅ ᴍᴇ /settings for more check Help . ☜ </blockquote><b>
 <b><spoiler>🔋Maintained by <a href='https://t.me/HGBOTZ'>H'GBOTZ</a></spoiler><b>"""
 
+  START_TXT1 = """<b><pre>Hᴇʟʟᴏ 😎 </pre> {} </b>
+<b><blockquote>ɪ ᴀᴍ ᴘᴏᴡᴇʀꜰᴜʟʟ AUTO FORWARD ʙᴏᴛ ᴊᴜꜱᴛ ꜱᴇɴᴅ ᴍᴇ /settings for more check Help . ☜ </blockquote><b>
+<b><spoiler>🔋Maintained by <a href='https://t.me/HGBOTZ'>H'GBOTZ</a></spoiler><b>"""
+
+
   HELP_TXT = """<b><blockquote>🛠️ Help</blockquote></u>
 
 <b><blockquote>📚 Available Commands :</blockquote></b>
