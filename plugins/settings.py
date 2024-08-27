@@ -19,11 +19,13 @@ CLIENT = CLIENT()
 
 @Client.on_message(filters.private & filters.command(['settings']))
 async def settings(client, message):
-    text="<b>Change Your Settings As Your Wish</b>"
-    await message.reply_text(
-        text=text,
+    
+    await message.reply_photo(
+        photo="https://graph.org/file/f1a1683e896c8a68f583d.jpg", 
+        caption="<b>Change Your Settings As Your Wish</b>",
         reply_markup=main_buttons(),
-        quote=True
+        quote=True, 
+        has_spoiler=True
     )
     
 
