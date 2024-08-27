@@ -24,8 +24,7 @@ async def settings(client, message):
         photo="https://graph.org/file/90e27dd577535b7bca9af.jpg", 
         caption="<b>Change Your Settings As Your Wish</b>",
         reply_markup=main_buttons(),
-        quote=True, 
-        has_spoiler=True
+        quote=True
     )
     
 
