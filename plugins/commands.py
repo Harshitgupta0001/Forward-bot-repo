@@ -103,11 +103,12 @@ async def how_to_use(bot, query):
 
 @Client.on_callback_query(filters.regex(r'^back'))
 async def back(bot, query):
+    user = message.from_user
     reply_markup = InlineKeyboardMarkup(main_buttons)
     await query.message.edit_text(
        reply_markup=reply_markup,
        text=Translation.START_TXT.format(
-                query.from_user.first_name, gtxt))
+               user.mention, gtxt))
 
 
 
