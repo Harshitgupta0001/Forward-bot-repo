@@ -104,6 +104,16 @@ async def how_to_use(bot, query):
 @Client.on_callback_query(filters.regex(r'^back'))
 async def back(bot, query):
     user = message.from_user
+    current_time = datetime.now(pytz.timezone(TIMEZONE))
+    curr_time = current_time.hour        
+    if curr_time < 12:
+         gtxt = "<b>ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ ☕</b>" 
+    elif curr_time < 17:
+         gtxt = "<b>ɢᴏᴏᴅ ᴀғᴛᴇʀɴᴏᴏɴ 😈</b>" 
+    elif curr_time < 21:
+         gtxt = "<b>ɢᴏᴏᴅ ᴇᴠᴇɴɪɴɢ 🌇</b>"
+    else:
+         gtxt = "<b>ɢᴏᴏᴅ ɴɪɢʜᴛ 🥱</b>"
     reply_markup = InlineKeyboardMarkup(main_buttons)
     await query.message.edit_text(
        reply_markup=reply_markup,
