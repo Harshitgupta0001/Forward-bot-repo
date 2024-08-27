@@ -54,8 +54,7 @@ async def start(client, message):
         caption=text,
         reply_markup=reply_markup,
         quote=True,
-        parse_mode=enums.ParseMode.HTML, 
-        has_spoiler=True
+        parse_mode=enums.ParseMode.HTML
     )
 
 
