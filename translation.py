@@ -13,33 +13,33 @@ class Translation(object):
 <b><blockquote>ɪ ᴀᴍ ᴘᴏᴡᴇʀꜰᴜʟʟ AUTO FORWARD ʙᴏᴛ ᴊᴜꜱᴛ ꜱᴇɴᴅ ᴍᴇ /settings for more check Help . ☜ </blockquote><b>
 <b><spoiler>🔋Maintained by <a href='https://t.me/HGBOTZ'>H'GBOTZ</a></spoiler><b>"""
 
-  HELP_TXT = """<b><u>🛠️ Help</b></u>
+  HELP_TXT = """<b><blockquote>🛠️ Help</blockquote></u>
 
-<b><u>📚 Available Commands :</u></b>
-⏣ __/start - Check I'm Alive__ 
+<b><blockquote>📚 Available Commands :</blockquote></b>
+<pre>⏣ __/start - Check I'm Alive__ 
 ⏣ __/forward - Forward Messages__
 ⏣ __/unequify - Delete Duplicate Messages In Channels__
 ⏣ __/settings - Configure Your Settings__
-⏣ __/reset - Reset Your Settings__
+⏣ __/reset - Reset Your Settings__</pre>
 
-<b><u>💢 Features :</b></u>
-► __Forward Message From Public Channel To Your Channel Without Admin Permission. If The Channel Is Private Need Admin Permission__
+<b><blockquote>💢 Features :</blockquote></b>
+<pre>► __Forward Message From Public Channel To Your Channel Without Admin Permission. If The Channel Is Private Need Admin Permission__
 ► __Forward Message From Private Channel To Your Channel By Using Userbot(User Must Be Member In There)__
 ► __Custom Caption__
 ► __Custom Button__
 ► __Support Restricted Chats__
 ► __Skip Duplicate Messages__
 ► __Filter Type Of Messages__
-► __Skip Messages Based On Extensions & Keywords & Size__
+► __Skip Messages Based On Extensions & Keywords & Size__</pre>
 """
   
-  HOW_USE_TXT = """<b><u>⚠️ Before Forwarding :</b></u>
+  HOW_USE_TXT = """<b><blockquote>⚠️ Before Forwarding :</blockquote></b>
   
-► __Add A Bot Or Userbot__
+<pre>► __Add A Bot Or Userbot__
 ► __Add Atleast One To Channel (Your Bot/Userbot Must Be Admin In There)__
 ► __You Can Add Chats Or Bots By Using /settings__
 ► __If The **From Channel** Is Private Your Userbot Must Be Member In There Or Your Bot Must Need Admin Permission In There Also__
-► __Then Use /forward To Forward Messages__"""
+► __Then Use /forward To Forward Messages__</pre>"""
   
   ABOUT_TXT = """<blockquote><b>🤖 My Name :</b> {}
 <b>📝 Language :</b> <a href='https://python.org'>Python 3</a>
@@ -63,9 +63,9 @@ class Translation(object):
   BOT_DETAILS = "<b><u>📄 Bot Details</u></b>\n\n<b>➣ Name :</b> <code>{}</code>\n<b>➣ Bot ID :</b> <code>{}</code>\n<b>➣ Username :</b> @{}"
   USER_DETAILS = "<b><u>📄 UserBot Details</u></b>\n\n<b>➣ Name :</b> <code>{}</code>\n<b>➣ User ID :</b> <code>{}</code>\n<b>➣ Username :</b> @{}"  
          
-  TEXT = """<b><u>Forward Status</u></b>
+  TEXT = """<b><blockquote>Forward Status</blockquote></b>
   
-<b>🕵 Fetch Message :</b> <code>{}</code>
+<pre><b>🕵 Fetch Message :</b> <code>{}</code>
 
 <b>✅ Successfully Forward :</b> <code>{}</code>
 
@@ -81,10 +81,10 @@ class Translation(object):
 
 <b>🔥 Percentage :</b> <code>{}</code> %
 
-{}
+{}</pre>
 """
 
-  TEXT1 = """<pre><b><u>Forwarded Status</u></b>
+  TEXT1 = """<b><u>Forwarded Status</u></b>
 
 <b>🕵 Fetched Message :</b> <code>{}</code>
 
@@ -102,7 +102,7 @@ class Translation(object):
 
 <b>⏰ ETA :</b> <code>{}</code>
 
-{} </pre>"""
+{} """
 
   DUPLICATE_TEXT = """<b><u>Unequify Status</u></b>
 
