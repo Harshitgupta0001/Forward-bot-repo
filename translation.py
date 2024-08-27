@@ -16,30 +16,30 @@ class Translation(object):
   HELP_TXT = """<b><blockquote>🛠️ Help</blockquote></u>
 
 <b><blockquote>📚 Available Commands :</blockquote></b>
-<pre>⏣ __/start - Check I'm Alive__ 
+<blockquote>⏣ __/start - Check I'm Alive__ 
 ⏣ __/forward - Forward Messages__
 ⏣ __/unequify - Delete Duplicate Messages In Channels__
 ⏣ __/settings - Configure Your Settings__
-⏣ __/reset - Reset Your Settings__</pre>
+⏣ __/reset - Reset Your Settings__</blockquote>
 
 <b><blockquote>💢 Features :</blockquote></b>
-<pre>► __Forward Message From Public Channel To Your Channel Without Admin Permission. If The Channel Is Private Need Admin Permission__
+<blockquote>► __Forward Message From Public Channel To Your Channel Without Admin Permission. If The Channel Is Private Need Admin Permission__
 ► __Forward Message From Private Channel To Your Channel By Using Userbot(User Must Be Member In There)__
 ► __Custom Caption__
 ► __Custom Button__
 ► __Support Restricted Chats__
 ► __Skip Duplicate Messages__
 ► __Filter Type Of Messages__
-► __Skip Messages Based On Extensions & Keywords & Size__</pre>
+► __Skip Messages Based On Extensions & Keywords & Size__</blockquote>
 """
   
   HOW_USE_TXT = """<b><blockquote>⚠️ Before Forwarding :</blockquote></b>
   
-<pre>► __Add A Bot Or Userbot__
+<blockquote>► __Add A Bot Or Userbot__
 ► __Add Atleast One To Channel (Your Bot/Userbot Must Be Admin In There)__
 ► __You Can Add Chats Or Bots By Using /settings__
 ► __If The **From Channel** Is Private Your Userbot Must Be Member In There Or Your Bot Must Need Admin Permission In There Also__
-► __Then Use /forward To Forward Messages__</pre>"""
+► __Then Use /forward To Forward Messages__</blockquote>"""
   
   ABOUT_TXT = """<blockquote><b>🤖 My Name :</b> {}
 <b>📝 Language :</b> <a href='https://python.org'>Python 3</a>
