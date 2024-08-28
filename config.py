@@ -8,7 +8,7 @@ import re
 from os import environ
 
 id_pattern = re.compile(r'^.\d+$')
-    AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL', '-1002166149059').split()] 
+AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL', '-1002166149059').split()] 
 class Config:
     API_ID = os.environ.get("API_ID", "29940662")
     API_HASH = os.environ.get("API_HASH", "b9ccc26a417ce3a998d321086a2edbb6")
