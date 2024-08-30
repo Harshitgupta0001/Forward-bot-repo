@@ -81,8 +81,6 @@ class Translation(object):
 
 <b>🪆 Skipped Message :</b> <code>{}</code>
 
-<b>🔁 Filtered Message :</b> <code>{}</code>
-
 <b>📊 Current Status :</b> <code>{}</code>
 
 <b>🔥 Percentage :</b> <code>{}</code> %
