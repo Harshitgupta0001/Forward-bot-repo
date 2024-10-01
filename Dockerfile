@@ -6,7 +6,6 @@ COPY requirements.txt /requirements.txt
 
 RUN cd /
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
-RUN Rohanthakur360/forward_bot_premium_ultra
 WORKDIR /forward_bot_premium_ultra
 COPY start.sh /start.sh
 CMD gunicorn app:app & python3 main.py
